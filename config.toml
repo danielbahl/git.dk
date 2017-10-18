@@ -1,0 +1,81 @@
+baseURL = "https://git.dk/"
+#languageCode = "da-dk"
+title = "git.dk - daniel bahl"
+
+## Basic Configuration
+
+
+builddrafts = false
+canonifyurls = false
+languageCode = "da-DK"
+
+contentdir = "content"
+layoutdir = "layouts"
+publishdir = "public"
+
+author = "Daniel Bahl"
+
+theme = "hugo-goa"
+
+## Hugo Built-in Features
+#disqusShortname = "https-shenoybr-github-io-hugo-goa-demo" # Comment out to disable Disqus.
+#googleAnalytics = "XYZ"
+enableRobotsTXT = true
+
+## Site Settings
+[params]
+author = "Daniel Bahl"
+intro = "Følg mig på GitHub <a href=\"https://github.com/danielbahl/\" target=\"_blank\">@danielbahl</a>"
+description = "Mit arbejde flyttes pt. fra egen-hosted Git-server til Github. Du er velkommen til at følge mine åbne projekter på github.com/danielbahl"
+authorimage = "https://avatars0.githubusercontent.com/u/628182?s=460&v=4"
+dateformat = "2. jan 2006"
+
+## Site Meta Settings
+[params.meta]
+description = "Git.dk is a website with my personal github projects"
+keywords = "git,github,projects,developer"
+
+## Social Accounts
+[params.social]
+github = "danielbahl"
+instagram = "danielbahl"
+xing = ""
+linkedin = "danielbahl"
+twitter = "danielbahl"
+facebook = "danielbahl"
+google = ""
+stackoverflow = ""
+email = ""
+
+## Extras
+[params.extra]
+copyright = "© 2017. Daniel Bahl. [Some Rights Reserved](http://creativecommons.org/licenses/by/3.0/)." 
+poweredby = false
+highlightjs = false
+
+## Main Menu
+[[menu.main]]
+    name = "danielbahl.com"
+    weight = 100
+    identifier = "danielbahl-blog"
+    url = "https://danielbahl.com/"
+[[menu.main]]
+    name = "Cloudbloggen.dk"
+    identifier = "cloudbloggen"
+    weight = 200
+    url = "https://cloudbloggen.dk"
+[[menu.main]]
+    name = "cloudportal.dk"
+    identifier = "cloudportal"
+    weight = 300
+    url = "https://cloudportal.dk"
+[[menu.main]]
+    name = "v5.dk"
+    identifier = "v5"
+    weight = 300
+    url = "https://v5.dk"
+[[menu.main]]
+    name = "cloudnet.dk"
+    identifier = "cloudnet"
+    weight = 300
+    url = "https://cloudnet.dk"
