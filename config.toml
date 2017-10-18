@@ -1,9 +1,7 @@
 baseURL = "https://git.dk/"
-#languageCode = "da-dk"
 title = "git.dk - daniel bahl"
 
 ## Basic Configuration
-
 
 builddrafts = false
 canonifyurls = false
@@ -18,7 +16,7 @@ author = "Daniel Bahl"
 theme = "hugo-goa"
 
 ## Hugo Built-in Features
-#disqusShortname = "https-shenoybr-github-io-hugo-goa-demo" # Comment out to disable Disqus.
+#disqusShortname = ""
 #googleAnalytics = "XYZ"
 enableRobotsTXT = true
 
@@ -39,7 +37,7 @@ keywords = "git,github,projects,developer"
 [params.social]
 github = "danielbahl"
 instagram = "danielbahl"
-xing = ""
+#xing = ""
 linkedin = "danielbahl"
 twitter = "danielbahl"
 facebook = "danielbahl"
@@ -50,7 +48,7 @@ email = ""
 ## Extras
 [params.extra]
 copyright = "© 2017. Daniel Bahl. [Some Rights Reserved](http://creativecommons.org/licenses/by/3.0/)." 
-poweredby = false
+poweredby = true
 highlightjs = false
 
 ## Main Menu
